@@ -12,7 +12,7 @@ EXPECTED_REVENUES = [["81"], ["81"], ["81", "53", "24", "21", "11", "7", "4", "3
 from autogpt.agent import Agent
 
 
-@pytest.mark.vcr
+#@pytest.mark.vcr
 @requires_api_key("OPENAI_API_KEY")
 @challenge
 def test_information_retrieval_challenge_a(

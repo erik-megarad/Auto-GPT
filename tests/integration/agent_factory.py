@@ -155,9 +155,9 @@ def information_retrieval_agents(
     for command_category in enabled_command_categories:
         command_registry.import_commands(command_category)
     ai_goals = [
-        "Write to a file called output.txt tesla's revenue in 2022 after searching for 'tesla revenue 2022'.",
-        "Write to a file called output.txt tesla's revenue in 2022.",
-        "Write to a file called output.txt tesla's revenue every year since its creation.",
+        "Create a file named output.txt that has Tesla's annual revenue for 2022 after searching for 'Tesla revenue 2022'.",
+        "Create a file named output.txt that has Tesla's annual revenue for 2022.",
+        "Create a file named output.txt that has Tesla's annual revenue for every year since its creation.",
     ]
     for ai_goal in ai_goals:
         ai_config = AIConfig(
